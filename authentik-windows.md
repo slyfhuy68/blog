@@ -17,3 +17,4 @@ cd ../website
 npm ci
 ```
 11.配置本地配置文件`python -m scripts.generate_config`（`local.env.yml`）</br>
+未完成
