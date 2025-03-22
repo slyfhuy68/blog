@@ -2,7 +2,7 @@ import win32gui
 import win32api
 import random
 import string
-# 使用程序后电脑如果出问题，重启即可
+# 使用程序后电脑如果出问题，重新登录用户即可
 for i in range(16384):
     msg_name = "msg"+str(i)
     msg_id = win32gui.RegisterWindowMessage("msg"+str(i))
